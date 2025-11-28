@@ -9,4 +9,7 @@ terraform {
 
 provider "aws" {
   region = var.aws_region
+  # NÃO colocar perfil
+  # NÃO colocar credenciais
+  # NÃO colocar shared_config_files
 }
